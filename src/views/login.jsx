@@ -1,10 +1,9 @@
-//import Button  from '../components/button/button'; 
-
+import LoginPanel from './components/LoginPanel/LoginPanel.jsx';
 export default function Login() {
     return(
         <> 
-            <img src="../src/assets/BgMobile.png">
-            </img>
+            <h1>Hello</h1>
+            <LoginPanel></LoginPanel>
         </>
     )
 }

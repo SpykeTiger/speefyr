@@ -1,0 +1,18 @@
+@media (max-width: 500px) {
+    body {
+      background-image: './assets/BgMobile.png';
+    }
+}
+  
+@media (min-width: 500px) and (max-width: 850px) {
+    body {
+        font-size: 16px;
+        background-color: green;
+    }
+}
+  
+@media (min-width: 850px) {
+    body {
+      background-color: red;
+    }
+}

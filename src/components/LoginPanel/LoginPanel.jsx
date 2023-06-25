@@ -1,10 +1,9 @@
-import Button from '../src/components/Button/Button.jsx'
-export default function LoginPanel() {
+import Button from '../src/components/Button/Button.jsx';
+
+export function LoginPanel() {
     return(
-        <>
-            <div className='LoginPanel'>
-                <Button></Button>
-            </div>  
-        </>
+        <div className='LoginPanel'>
+            <Button />
+        </div>  
     )
 }

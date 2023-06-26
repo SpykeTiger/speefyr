@@ -1,4 +1,4 @@
-import {LoginPanel} from '../src/components/LoginPanel/LoginPanel.jsx';
+import {LoginPanel} from '../components/LoginPanel/LoginPanel.jsx';
 
 export default function Login() {
     return(

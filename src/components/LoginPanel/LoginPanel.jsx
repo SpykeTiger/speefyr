@@ -1,4 +1,4 @@
-import Button from '../src/components/Button/Button.jsx';
+import Button from '../Button/Button.jsx';
 
 export function LoginPanel() {
     return(

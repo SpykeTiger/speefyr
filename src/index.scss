@@ -1,7 +1,6 @@
 @media (max-width: 500px) {
     body {
       background-image: './src/assets/BgMobile.png';
-      background-color: blue;
     }
 }
   
@@ -16,4 +15,8 @@
     body {
       background-color: red;
     }
+}
+
+html{
+  overflow-x: hidden;
 }

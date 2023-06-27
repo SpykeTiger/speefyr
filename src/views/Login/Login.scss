@@ -1,0 +1,23 @@
+@media (max-width: 500px) {
+    .background{
+        z-index: 9999;
+    }
+    body{
+        float: left;
+    }
+    html{
+        height: 100%;
+        width: auto;
+        background-image: url("../src/assets/BgMobile.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+@media (min-width: 500px) and (max-width: 850px) {
+
+}
+
+@media (min-width: 850px) {
+
+}
+

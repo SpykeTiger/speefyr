@@ -2,9 +2,6 @@ html {
     font-size: calc(15px + 0.5vw);
 }
 @media (min-width:0px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
-    body{
-        float: left;
-    }
     html{
         height: 100%;
         width: auto;
@@ -14,9 +11,6 @@ html {
     }
 }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
-    body{
-        
-    }
     html{
         height: 100%;
         width: auto;
@@ -26,9 +20,6 @@ html {
     }
 }
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
-    body{
-        
-    }
     html{
         height: 100%;
         width: auto;
@@ -39,9 +30,6 @@ html {
     }
 }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
-    body{
-        
-    }
     html{
         height: 100%;
         width: auto;
@@ -52,9 +40,6 @@ html {
     }
 }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ 
-    body{
-        
-    }
     html{
         height: 100%;
         width: auto;

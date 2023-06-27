@@ -1,4 +1,7 @@
-@media (max-width: 500px) {
+html {
+    font-size: calc(15px + 0.5vw);
+}
+@media (min-width:0px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
     body{
         float: left;
     }
@@ -10,27 +13,54 @@
         background-size: 100% 100%;
     }
 }
-@media (min-width: 500px) and (max-width: 850px) {
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
     body{
-        float: left;
-    }
-    html{
-        height: 100%;
-        width: auto;
-        background-image: url("../src/assets/BgMobile.png");
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-    }
-    .loginpanel{
-        justify-content: center;
-    }
-}
-
-@media (min-width: 850px) {
-    .loginpanel{
         
-        display: flex;
-        justify-content: flex-end;
+    }
+    html{
+        height: 100%;
+        width: auto;
+        background-image: url("../src/assets/BgMobile.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
     }
 }
-
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    body{
+        
+    }
+    html{
+        height: 100%;
+        width: auto;
+        background-image: url("../src/assets/BgTablet.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+    body{
+        
+    }
+    html{
+        height: 100%;
+        width: auto;
+        background-image: url("../src/assets/BgLaptop.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+    body{
+        
+    }
+    html{
+        height: 100%;
+        width: auto;
+        background-image: url("../src/assets/BgLaptop.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+}

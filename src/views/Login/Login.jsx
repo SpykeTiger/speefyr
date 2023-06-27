@@ -4,7 +4,10 @@ import styles from './login.scss';
 export default function Login() {
     return(
         <> 
-            <LoginPanel />
+            <div className='Login'>
+                <LoginPanel />
+            </div>
+            
         </>
     )
 }

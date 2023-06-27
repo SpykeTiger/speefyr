@@ -1,8 +1,10 @@
-html {
-    font-size: calc(15px + 0.5vw);
+.Login{
+    margin: 0px;
+    padding: 0%;
+    height: 100%;
 }
 @media (min-width:0px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
-    html{
+    .Login{
         height: 100%;
         width: auto;
         background-image: url("../src/assets/BgMobile.png");
@@ -11,7 +13,7 @@ html {
     }
 }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
-    html{
+    .Login{
         height: 100%;
         width: auto;
         background-image: url("../src/assets/BgMobile.png");
@@ -20,7 +22,7 @@ html {
     }
 }
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
-    html{
+    .Login{
         height: 100%;
         width: auto;
         background-image: url("../src/assets/BgTablet.png");
@@ -30,7 +32,7 @@ html {
     }
 }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
-    html{
+    .Login{
         height: 100%;
         width: auto;
         background-image: url("../src/assets/BgLaptop.png");
@@ -40,7 +42,7 @@ html {
     }
 }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ 
-    html{
+    .Login{
         height: 100%;
         width: auto;
         background-image: url("../src/assets/BgLaptop.png");

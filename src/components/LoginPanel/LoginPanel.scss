@@ -1,23 +1,26 @@
 .loginpanel, #loginpanel{
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 .container {
+    min-width: 300px;
     padding: 20px;
     height: 40%;
     background-color: #1F1C1C;
     border-radius: 10%;
     box-shadow: 0px 8px 10px 4px rgba(0, 0, 0, 0.80);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .container h2 {
     text-align: center;
     height: 20%;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .container input[type="text"],
 .container input[type="password"] {
@@ -53,17 +56,44 @@
             font-size: 50px;
         }
     }
+    h2{
+        font-size: 50px;
+    }
+    input{
+        font-size: 50px;
+    }
+    button{
+        font-size: 30px;
+    }
 }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
     .loginpanel{
         width: 100%;
         justify-content: center;
     }
+    h2{
+        font-size: 50px;
+    }
+    input{
+        font-size: 50px;
+    }
+    button{
+        font-size: 30px;
+    }
 }
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
     .loginpanel{
         width: 100%;
         justify-content: center;
+    }
+    h2{
+        font-size: 50px;
+    }
+    input{
+        font-size: 50px;
+    }
+    button{
+        font-size: 30px;
     }
 }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
@@ -73,8 +103,18 @@
     }
     .container{
         margin: 3%;
+        height: 40%;
         width: 30%;
         padding: 10px;
+    }
+    h2{
+        font-size: 80px;
+    }
+    input{
+        font-size: 50px;
+    }
+    button{
+        font-size: 30px;
     }
 }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ 
@@ -83,12 +123,18 @@
         justify-content: flex-end;
     }
     .container{
-        h2{
-            font-size: 50px;
-        }
         margin: 3%;
         height: 40%;
         width: 30%;
         padding: 10px;
+        h2{
+            font-size: 80px;
+        }
+        input{
+            font-size: 50px;
+        }
+        button {
+            font-size: 30px;
+        }
     }
 }

@@ -9,13 +9,25 @@
         height: 40%;
     }
     .container{
+        margin-top: 40%;
         border-radius: 25px;
     }
 }
   
 @media (min-width: 500px) and (max-width: 850px) {
     .LoginPanel{
-
+        position: absolute;
+        top: 20%;
+        left: 15%;
+        right: 15%;
+        bottom: 40%;
+        width: 70%;
+        height: 40%;
+    }
+    .container{
+        margin-top: 40%;
+        margin-left: 40%;
+        border-radius: 25px;
     }
 }
   
@@ -27,11 +39,9 @@
 
 .container {
     max-width: 400px;
-    margin: 0 auto;
     padding: 20px;
     background-color: #1F1C1C;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 40%;
     justify-content: center;
     align-items: center;
     text-align: center;

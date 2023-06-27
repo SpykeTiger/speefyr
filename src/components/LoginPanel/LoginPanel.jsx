@@ -1,6 +1,3 @@
-import Button from '../Button/Button.jsx';
-import Input from '../Input/Input.jsx';
-
 import styles from './LoginPanel.scss';
 export function LoginPanel() {
     return(

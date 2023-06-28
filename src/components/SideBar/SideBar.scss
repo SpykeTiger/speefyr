@@ -1,50 +1,39 @@
 .container_SideBar{
     display: flex;
+    height: 100%;
   }
-  nav{
+nav{
     position: relative;
     top: 0;
     bottom: 0;
-    height: 100vh;
+    height: 100%;
     left: 0;
     background: #2e2b2b;;
-    width: 280px;
+    width: 90px;
+    transition: width 0.2s linear;
     overflow: hidden;
-    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
-    
-  }
-  .fas{
-    position: relative;
-    width: 70px;
-    height: 40px;
-    top: 14px;
-    font-size: 20px;
-    text-align: center;
-  }
-  ul{
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    li{
-        a{
-            position: relative;
-            color: rgb(0, 0, 0);
-            font-size: 14px;
-            display: table;
-            width: 280px;
-            padding: 10px;
-        }
-        a:hover{
-            background: #eee;
-        }
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.8);
+    .fas{
+        position: relative;
+        width: 70px;
+        height: 40px;
+        top: 14px;
+        font-size: 20px;
+        text-align: center;
     }
-  }
+}
+nav:hover{
+    width: 300px;
+    transition: all 0.5% ease;
+}
   .logo{
     text-align: center;
     display: flex;
     margin: 10px 0 0 10px;
+    transition: all 0.5% ease;
     img{
         width: 45px;
+        margin: 10px;
         height: 45px;
         border-radius: 50%;
     }
@@ -55,13 +44,33 @@
         font-size: 18px;
         text-transform: uppercase;
     }
-  }
-  .nav-item{
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    li{
+        a{
+            position: relative;
+            color: rgb(0, 0, 0);
+            font-size: 14px;
+            display: table;
+            width: 300px;
+            padding: 10px;
+        }
+        a:hover{
+            background: #0f0e0e;
+        }
+    }
+}
+  
+.nav-item{
     position: relative;
     top: 12px;
     margin-left: 10px;
-  }
-  .logout{
+}
+.logout{
     position: absolute;
     bottom: 0;
-  }
+}

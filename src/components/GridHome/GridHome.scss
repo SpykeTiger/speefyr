@@ -1,0 +1,20 @@
+.container_GridHome{
+    margin: 10px;
+    margin-left: 100px;
+    float:left;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Adjust the number of columns as needed */
+    grid-gap: 10px; /* Adjust the gap between grid items as needed */
+  }
+  
+  .container_ItemGridHome{
+    border-radius: 10px;
+    border: solid 2px #093f08;
+    background-color: #74c574; /* Adjust the background color as needed */
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    box-shadow:  5px 10px 10px black;
+  }
+
+ 

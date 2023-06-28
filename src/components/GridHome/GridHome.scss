@@ -17,4 +17,28 @@
     box-shadow:  5px 10px 10px black;
   }
 
- 
+  @media (min-width:0px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+    .container_GridHome {
+      grid-template-columns:repeat(1, 1fr)
+    }
+  }
+  @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    .container_GridHome {
+      grid-template-columns:repeat(2, 1fr)
+    }
+  }
+  @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    .container_GridHome{
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+    .container_GridHome{
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  @media (min-width:1281px) { /* hi-res laptops and desktops */ 
+    .container_GridHome{
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }

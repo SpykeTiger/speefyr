@@ -6,7 +6,7 @@ export default function SideBar(){
             <nav>
                 <div class="navbar">
                     <div class="logo">
-                        <img src='../assets/Logo.Png' alt=""></img>
+                        <img src='../../src/assets/Logo.png' alt=""></img>
                         <h1>Speefyr</h1>
                     </div>
                     <ul>
@@ -30,7 +30,7 @@ export default function SideBar(){
                             <span class="nav-item">Ajuda</span>
                         </a>
                         </li>
-                        <li><a href="#" class="logout">
+                        <li><a href="/" class="logout">
                             <i class="fas fa-sign-out-alt"></i>
                             <span class="nav-item">Logout</span>
                         </a>
